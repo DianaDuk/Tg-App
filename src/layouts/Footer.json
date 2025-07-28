@@ -1,0 +1,22 @@
+[
+        {
+           "img": "/public/jackpot.svg",
+           "label": "JackPot"
+        },
+        {
+            "img": "/public/case.svg",
+            "label": "Cases"
+        },
+        {
+            "img": "/public/cash.svg",
+            "label": "Allin"
+        },
+        {
+            "img": "/public/present.svg",
+            "label": "Rewards"
+        },
+        {
+            "img": "/public/profile.svg",
+            "label": "Profile"
+        }
+    ]
