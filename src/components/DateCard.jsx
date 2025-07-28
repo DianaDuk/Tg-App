@@ -34,7 +34,7 @@ const DateCard = () => {
     zIndex: 0,
   }}
 >
-  <Box component="img" src="/calendar.svg" sx={{ zIndex: 2, transform: 'skew(17deg)', width: '30px', height: '30px' }} />
+  <Box component="img" src="/Tg-App/calendar.svg" sx={{ zIndex: 2, transform: 'skew(17deg)', width: '30px', height: '30px' }} />
 </Box>
 </Box>
 

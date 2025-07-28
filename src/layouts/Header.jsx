@@ -41,9 +41,9 @@ const Header = () => {
           mb: 2,
         }}
       >
-      <Box sx={{backgroundImage: "url(/public/bg-avatar.svg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width: "100%", aspectRatio: '4.6 / 1'}}>
+      <Box sx={{backgroundImage: `url(${import.meta.env.BASE_URL}bg-avatar.svg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width: "100%", aspectRatio: '4.6 / 1'}}>
         <Avatar
-          src="/public/user.svg"
+          src="/Tg-App/user.svg"
           sx={{ width: 36, height: 36, margin: "0 auto", mb: 1 }}
         />
         <Typography sx={{ fontWeight: 400, fontSize: "14px", fontFamily: "Unbounded"}}>
@@ -60,10 +60,10 @@ const Header = () => {
 
 
         <Box sx={{justifyContent: "space-between", display: "flex", marginTop: "-85px"}}>
-          <Box sx={{ textAlign: "center", backgroundImage: "url(/public/bg-icon.svg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width:"92px", height: "80px", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '5px', pr: '15px' }}>
+          <Box sx={{ textAlign: "center", backgroundImage: `url(${import.meta.env.BASE_URL}bg-icon.svg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', width:"92px", height: "80px", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '5px', pr: '15px' }}>
             <Box
               component='img'
-              src="/public/icon.svg"
+              src="/Tg-App/icon.svg"
               alt="coin"
               sx={{width: '24px', height: '24px'}}
             />
@@ -73,10 +73,10 @@ const Header = () => {
           </Box>
 
 
-          <Box sx={{ textAlign: "center", backgroundImage: "url(/public/bg-almaz.svg)", backgroundRepeat: 'no-repeat', backgroundSize: 'cover',  width:"92px", height: "80px",  display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '5px', pl: '15px' }}>
+          <Box sx={{ textAlign: "center",backgroundImage: `url(${import.meta.env.BASE_URL}bg-almaz.svg)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover',  width:"92px", height: "80px",  display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '5px', pl: '15px' }}>
             <Box
               component='img'
-              src="/public/almaz.svg"
+              src="/Tg-App/almaz.svg"
               alt="diamond"
               sx={{width: '24px', height: '24px'}}
             />

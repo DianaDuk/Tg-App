@@ -1,22 +1,22 @@
 [
         {
-           "img": "/public/jackpot.svg",
+           "img": "/Tg-App/jackpot.svg",
            "label": "JackPot"
         },
         {
-            "img": "/public/case.svg",
+            "img": "/Tg-App/case.svg",
             "label": "Cases"
         },
         {
-            "img": "/public/cash.svg",
+            "img": "/Tg-App/cash.svg",
             "label": "Allin"
         },
         {
-            "img": "/public/present.svg",
+            "img": "/Tg-App/present.svg",
             "label": "Rewards"
         },
         {
-            "img": "/public/profile.svg",
+            "img": "/Tg-App/profile.svg",
             "label": "Profile"
         }
     ]
